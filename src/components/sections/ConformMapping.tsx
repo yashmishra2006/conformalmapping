@@ -162,7 +162,7 @@ export const ConformMapping: React.FC = () => {
           <h3 className="text-xl font-semibold text-gray-800 mb-4">Joukowski Airfoil Transform</h3>
           <div className="aspect-video w-full">
             <iframe
-              src="http://complex-analysis.com/applets/p5js/joukowsky/index.html"
+              src="https://complex-analysis.com/applets/p5js/joukowsky/index.html"
               className="w-full h-full border-0 rounded-lg"
               title="Joukowski Transform Interactive Visualization"
             />
