@@ -49,16 +49,20 @@ export const Introduction: React.FC = () => {
           </div>
           
           <div className="md:w-1/2 mt-8 md:mt-0">
-            <div className="relative bg-gradient-to-br from-blue-100 to-cyan-50 p-4 rounded-xl shadow-lg overflow-hidden">
-              <div className="absolute top-0 right-0 w-32 h-32 bg-blue-200 opacity-40 rounded-full -mr-10 -mt-10"></div>
-              <div className="absolute bottom-0 left-0 w-40 h-40 bg-cyan-200 opacity-30 rounded-full -ml-16 -mb-16"></div>
-              
-              <div className="relative z-10">
-                <img 
-                  src="https://images.pexels.com/photos/3846517/pexels-photo-3846517.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
-                  alt="Fluid flow visualization" 
-                  className="w-full h-auto rounded-lg shadow-md mb-4"
-                />
+  <div className="relative bg-gradient-to-br from-blue-100 to-cyan-50 p-4 rounded-xl shadow-lg overflow-hidden">
+    <div className="absolute top-0 right-0 w-32 h-32 bg-blue-200 opacity-40 rounded-full -mr-10 -mt-10"></div>
+    <div className="absolute bottom-0 left-0 w-40 h-40 bg-cyan-200 opacity-30 rounded-full -ml-16 -mb-16"></div>
+
+    <div className="relative z-10">
+      <div className="w-full aspect-video rounded-lg shadow-md overflow-hidden mb-4 border border-blue-300">
+        <iframe
+          src="https://complex-analysis.com/applets/p5js/flowfield/index.html"
+          title="Flow Field Animation"
+          className="w-full h-full"
+          sandbox="allow-scripts"
+          loading="lazy"
+        />
+      </div>
                 
                 <div className="bg-white/90 backdrop-blur-sm p-4 rounded-lg">
                   <h4 className="text-lg font-semibold text-blue-800 mb-2">Conformal Mapping's Key Property</h4>

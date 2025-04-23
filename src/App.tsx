@@ -4,8 +4,8 @@ import { Hero } from './components/Hero';
 import { Introduction } from './components/sections/Introduction';
 import { MappingTypes } from './components/sections/MappingTypes';
 import { WhyItWorks } from './components/sections/WhyItWorks';
-import { InteractiveApplet } from './components/sections/InteractiveApplet';
 import { Conclusion } from './components/sections/Conclusion';
+import { ConformMapping } from './components/sections/ConformMapping';
 
 function App() {
   return (
@@ -14,7 +14,7 @@ function App() {
       <Introduction />
       <MappingTypes />
       <WhyItWorks />
-      <InteractiveApplet />
+      <ConformMapping />
       <Conclusion />
     </Layout>
   );
